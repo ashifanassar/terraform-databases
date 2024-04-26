@@ -1,3 +1,3 @@
 bucket              = "terraformbasicdevopsstatebucket"
-key                 = "dev/prod/terraform.tfstate"
+key                 = "prod/vpc/terraform.tfstate"
 region              = "us-east-1"
