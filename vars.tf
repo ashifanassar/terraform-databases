@@ -2,4 +2,4 @@
 
 variable "ENV" {}
 
-variable "AZ" {}
+
