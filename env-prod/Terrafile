@@ -1,7 +1,3 @@
-mysql:
-    source:  "https://github.com/ashifanassar/tf-modules-mysql.git"
-    version: "main"
-
 
 mongodb:
     source:  "https://github.com/ashifanassar/tf-modules-mongodb.git"
@@ -11,6 +7,12 @@ redis:
     source:  "https://github.com/ashifanassar/tf-modules-redis.git"
     version: "main"
 
-rabbitmq:
-    source:  "https://github.com/ashifanassar/tf-modules-rabbitmq.git"
-    version: "main"
+
+# mysql:
+#     source:  "https://github.com/ashifanassar/tf-modules-mysql.git"
+#     version: "main"
+
+
+# rabbitmq:
+#     source:  "https://github.com/ashifanassar/tf-modules-rabbitmq.git"
+#     version: "main"
