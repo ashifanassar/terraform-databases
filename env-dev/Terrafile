@@ -1,5 +1,5 @@
 
-mongodb:
+documentdb:
     source:  "https://github.com/ashifanassar/tf-module-documentdb.git"
     version: "main"
 
