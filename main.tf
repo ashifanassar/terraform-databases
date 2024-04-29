@@ -10,11 +10,10 @@ module "redisdb" {
     ENV = var.ENV
 }
 
-# module "mysql" {
-#     source      = "./vendor/modules/mysql/"
-#     ENV = var.ENV
-#     AZ = var.AZ
-# }
+module "mysqldb" {
+    source      = "./vendor/modules/mysqldb/"
+    ENV = var.ENV
+}
 
 
 

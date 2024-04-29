@@ -8,7 +8,7 @@ redisdb:
     source:  "https://github.com/ashifanassar/tf-module-redisdb.git"
     version: "main"
 
-mysql:
+mysqldb:
     source:  "https://github.com/ashifanassar/tf-module-mysqldb.git"
     version: "main"
 
