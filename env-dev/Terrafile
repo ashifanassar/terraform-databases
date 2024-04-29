@@ -4,7 +4,7 @@ documentdb:
     version: "main"
 
 
-redis:
+redisdb:
     source:  "https://github.com/ashifanassar/tf-module-redisdb.git"
     version: "main"
 

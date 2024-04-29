@@ -3,7 +3,7 @@ documentdb:
     source:  "https://github.com/ashifanassar/tf-module-documentdb.git"
     version: "main"
 
-redis:
+redisdb:
     source:  "https://github.com/ashifanassar/tf-module-redisdb.git"
     version: "main"
 

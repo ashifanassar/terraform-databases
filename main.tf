@@ -5,8 +5,8 @@ module "documentdb" {
 
 
 
-module "redis" {
-    source      = "./vendor/modules/redis/"
+module "redisdb" {
+    source      = "./vendor/modules/redisdb/"
     ENV = var.ENV
 }
 
