@@ -8,9 +8,9 @@ redisdb:
     version: "main"
 
 
-# mysql:
-#     source:  "https://github.com/ashifanassar/tf-modules-mysql.git"
-#     version: "main"
+mysql:
+    source:  "https://github.com/ashifanassar/tf-module-mysqldb.git"
+    version: "main"
 
 
 # rabbitmq:
