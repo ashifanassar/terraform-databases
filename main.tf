@@ -19,4 +19,6 @@ module "mysqldb" {
 module "rabbitmqdb" {
     source      = "./vendor/modules/rabbitmqdb/"
     ENV = var.ENV
+    RABBITMQ_INSTANCE_TYPE = var.RABBITMQ_INSTANCE_TYPE
+    RABBITMQ_PORT          = var.RABBITMQ_PORT
 }
