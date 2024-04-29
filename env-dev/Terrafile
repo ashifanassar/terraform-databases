@@ -1,12 +1,12 @@
 
 mongodb:
-    source:  "https://github.com/ashifanassar/tf-module-mongodb.git"
+    source:  "https://github.com/ashifanassar/tf-module-documentdb.git"
     version: "main"
 
 
-redis:
-    source:  "https://github.com/ashifanassar/tf-modules-redis.git"
-    version: "main"
+# redis:
+#     source:  "https://github.com/ashifanassar/tf-modules-redis.git"
+#     version: "main"
 
 # mysql:
 #     source:  "https://github.com/ashifanassar/tf-modules-mysql.git"

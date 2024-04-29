@@ -1,14 +1,14 @@
-module "mongodb" {
-    source      = "./vendor/modules/mongodb/"
+module "documentdb" {
+    source      = "./vendor/modules/documentdb/"
     ENV = var.ENV
 }
 
 
 
-module "redis" {
-    source      = "./vendor/modules/redis/"
-    ENV = var.ENV
-}
+# module "redis" {
+#     source      = "./vendor/modules/redis/"
+#     ENV = var.ENV
+# }
 
 # module "mysql" {
 #     source      = "./vendor/modules/mysql/"
