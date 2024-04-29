@@ -13,9 +13,6 @@ mysqldb:
     version: "main"
 
 
-
-
-
-# rabbitmq:
-#     source:  "https://github.com/ashifanassar/tf-modules-rabbitmq.git"
-#     version: "main"
+rabbitmqdb:
+    source:  "https://github.com/ashifanassar/tf-module-rabbitmqdb.git"
+    version: "main"

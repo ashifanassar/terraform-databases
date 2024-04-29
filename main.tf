@@ -16,11 +16,7 @@ module "mysqldb" {
 }
 
 
-
-
-
-# module "rabbitmq" {
-#     source      = "./vendor/modules/rabbitmq/"
-#     ENV = var.ENV
-#     AZ = var.AZ
-# }
+module "rabbitmqdb" {
+    source      = "./vendor/modules/rabbitmqdb/"
+    ENV = var.ENV
+}
