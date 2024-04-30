@@ -10,7 +10,7 @@ module "documentdb" {
 
 
 module "redisdb" {
-    source                  = "./vendor/modules/redis/"       # Terrafile clones the backend module mentioned in the Terrafile and keeps it local to the root 
+    source                  = "./vendor/modules/redisdb/"       # Terrafile clones the backend module mentioned in the Terrafile and keeps it local to the root 
     ENV                     = var.ENV
     REDIS_PORT              = var.REDIS_PORT
     REDIS_ENGINE_VERSION    = var.REDIS_ENGINE_VERSION
