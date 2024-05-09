@@ -1,5 +1,5 @@
 output "DOCDB_ENDPOINT" {
-    value = module.mongodb.DOCDB_ENDPOINT
+    value = module.documentdb.DOCDB_ENDPOINT
 }
 
 # output "REDIS_ENDPOINT" {
